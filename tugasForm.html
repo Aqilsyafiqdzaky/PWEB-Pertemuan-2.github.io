@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="pertemuan-3.html">Testing</a>
+    <a href="tugasTabel.html">Tugas Tabel</a>
+    <a href="tugasForm.html">Tugas Form</a>
+    <a href="tugasFrame.html">Tugas Frame</a>
+  </nav>
+
+  <main class="form-container">
+    <div class="form-box">
+      <h2>Tugas Form</h2>
+      <form method="post">
+        <b>Form Registrasi</b><br><br>
+
+        <label>Nama:</label><br>
+        <input type="text" size="20"><br><br>
+
+        <label>NRP:</label><br>
+        <input type="number" size="10" maxlength="10"><br><br>
+
+        <label>Apakah kamu dari Teknik Informatika?</label><br>
+        <input type="radio" name="ti" value="ya"> Ya<br>
+        <input type="radio" name="ti" value="tidak"> Tidak<br><br>
+
+        <label>Jika ya, kamu dari prodi apa?</label><br>
+        <select name="prodi">
+          <option value="tekfor">Teknik Informatika</option>
+          <option value="RPL">RPL</option>
+          <option value="RKA">RKA</option>
+        </select><br><br>
+
+        <label>Apa saja mata kuliah yang kamu sukai?</label><br>
+        <input type="checkbox" name="dasprog"> Dasar Pemrograman<br>
+        <input type="checkbox" name="sisdig"> Sistem Digital<br>
+        <input type="checkbox" name="alin"> Aljabar Linier<br>
+        <input type="checkbox" name="sbd"> Sistem Basis Data<br>
+        <input type="checkbox" name="kalkulus"> Kalkulus-1<br><br>
+
+        <input type="submit" value="Simpan">
+        <input type="reset" value="Hapus">
+      </form>
+    </div>
+  </main>
+</body>
+</html>
